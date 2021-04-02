@@ -1,0 +1,9 @@
+.page__container {
+  margin: 0 auto;
+  font-family: 'Inter', Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding-left: 48px;
+  padding-right: 48px;
+  background-color: aqua;
+}
+

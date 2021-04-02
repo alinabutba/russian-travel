@@ -1,0 +1,14 @@
+.header__link-underlined {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.header__link-underlined:hover {
+  opacity: 0.5;
+  color: #ffffff;
+  transition: color 1s linear 0.5s;
+}

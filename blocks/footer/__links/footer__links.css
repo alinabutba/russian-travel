@@ -1,0 +1,17 @@
+.footer__links {
+  display:flex;
+  margin:0;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    align-items: flex-start;
+    display:block;
+    margin-left: 0px;
+    padding-bottom: 48px;
+
+  }
+}
