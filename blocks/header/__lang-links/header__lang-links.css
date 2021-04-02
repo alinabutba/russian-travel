@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  flex-wrap: nowrap;  
+  flex-wrap: nowrap;
   flex-direction: row;
-  list-style: none;  
+  list-style: none;
 }
 
 .header__lang-links :last-child {
