@@ -1,27 +1,27 @@
 .places {
-  box-sizing: border-box;
-  max-width: 984px;
-  margin: 79px auto 105px;
-  padding: 0;
+  margin: 0 auto;
+  font-family: 'Inter';
+  max-width: 984px;  
+  padding: 0 148px 92px 148px;
 }
 
 @media screen and (max-width: 1100px) {
   .places {
     max-width: 928px;
-    margin: 92px auto 92px;
+    padding: 0 48px 92px 48px;
   }
 }
 
 @media screen and (max-width: 840px) {
   .places {
     max-width: 720px;
-    margin: 88px auto 90px;
+    padding: 0 24px 90px 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
     max-width: 320px;
-    margin: 64px auto 66px;
+    padding: 0 0 66px 0;
   }
 }

@@ -1,25 +1,21 @@
 .place__paragraph {
-  margin: 0;
+  margin: 0 auto 27px;
   padding: 0;
-  grid-area: place__paragraph;
-  font-style: normal;
+  max-width: 484px;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
-  max-width: 484px;
+  text-align: left;
 }
 
-@media screen and (max-width: 840px) {
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 1.62;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .place__paragraph {
-    font-size: 16px;
-    padding: 0 16px;
-  }
-}
-

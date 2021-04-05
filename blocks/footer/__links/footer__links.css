@@ -6,12 +6,11 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
   .footer__links {
     align-items: flex-start;
     display:block;
     margin-left: 0px;
     padding-bottom: 48px;
-
   }
 }

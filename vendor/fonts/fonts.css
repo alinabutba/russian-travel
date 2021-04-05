@@ -13,3 +13,11 @@
     font-weight: 900;
     src: url('../fonts/inter-v3-latin_cyrillic-900.woff2') format('woff2');
   }
+
+  /* inter-700 Bold */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+}
