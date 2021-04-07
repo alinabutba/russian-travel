@@ -8,7 +8,6 @@
 
 .header__lang-link:hover{
   opacity: 80%;
-  color: #ffffff;
   transition: color 1s linear 0.5s;
 }
 

@@ -1,6 +1,6 @@
 .places {
   margin: 0 auto;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   max-width: 984px;
   padding: 0 148px 92px 148px;
 }

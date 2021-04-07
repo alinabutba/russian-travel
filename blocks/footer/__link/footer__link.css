@@ -10,6 +10,7 @@
   line-height: 18px;
   color: #ffffff;
   display: block;
+  transition: color 1s linear 0.5s;
 }
 
 .footer__link:last-child {
@@ -17,9 +18,7 @@
 }
 
 .footer__link:hover {
-  opacity: 0.5;
-  color: #ffffff;
-  transition: color 1s linear 0.5s;
+  opacity: 80%;  
 }
 
 @media screen and (max-width: 440px) {
